@@ -39,13 +39,11 @@ const displayBullets = ()=>{
 
 }
 
-
 const init = () =>{
 	tagLine.innerHTML = slides[cpt].tagLine;
 	displayBullets();
 	
 }
-
 
 
 init();
