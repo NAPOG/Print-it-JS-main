@@ -25,10 +25,11 @@ const banner_tagline = document.querySelector(".banner-tagline");
 const tagLine = document.querySelector('.tagLine');
 const bullets = document.querySelector('.dots')
 
-
+//bullets//
 const displayBullets = ()=>{
 	bullets.innerHTML = "";
-	for(let i = 0; slides.length > i; i++){
+	for(let i = 0; slides.length > i; i++)//permet de faire revenir a image1// 
+	{
 		const bullet = document.createElement('div');
 		bullet.classList.add("dot")
 		if(cpt == i)
@@ -50,7 +51,7 @@ init();
 
 
 
-
+//Arrows//
 const arrow_left = document.querySelector(".arrow_left");
 arrow_left.addEventListener("click",()=>{
 	if(cpt == 0){
